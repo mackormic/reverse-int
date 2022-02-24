@@ -3,4 +3,4 @@ const reverseNumber = (Number) => {
     console.log(num);
   }
   
-  reverseNumber()
+  reverseNumber();
