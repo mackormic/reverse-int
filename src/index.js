@@ -1,6 +1,11 @@
-const reverseNumber = (Number) => {
-    const num = [...Number.toString()].reverse().join('');
-    console.log(num);
+module.exports = function reverse (n) {
+  return reverse(n);
+}
+
+function reverse(n) {
+  const num = [...n.toString()].reverse().join('');
+    return num;
   }
-  
-  reverseNumber()
+
+
+
