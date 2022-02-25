@@ -1,11 +1,12 @@
 module.exports = function reverse (n) {
-  return reverse(n);
+  return reverseN(n);
 }
 
-function reverse(n) {
+function reverseN(n) {
   const num = [...n.toString()].reverse().join('');
     return num;
   }
+
 
 
 
