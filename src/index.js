@@ -4,7 +4,7 @@ module.exports = function reverse (n) {
 
 function reverseN(n) {
   const num = [...n.toString()].reverse().join('');
-    return num;
+    return parseInt(num);
   }
 
 
